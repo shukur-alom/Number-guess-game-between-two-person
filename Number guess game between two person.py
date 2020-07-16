@@ -41,10 +41,10 @@ while True:
       2nd player try {sst_player_try}\n\n""")
       break
 
-if fst_player_try > sst_player_try:
+if fst_player_try < sst_player_try:
    print(f'''1st player try {fst_player_try} 2st player try {sst_player_try}
    \nWIN 1st PLAYER''')
-elif fst_player_try < sst_player_try:
+elif fst_player_try > sst_player_try:
    print(f'''1st player try {fst_player_try} 2st player try {sst_player_try}
    \nWIN 2nd PLAYER''')
 elif fst_player_try == sst_player_try:
